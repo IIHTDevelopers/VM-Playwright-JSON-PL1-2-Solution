@@ -35,7 +35,7 @@ export default class AppointmentPage {
     console.log("link clicked ", this.appointment.appointmentLink);
 
     // Select first counter item if available
-    await this.page.waitForTimeout(3000);
+    await this.page.waitForTimeout(10000);
     const counterCount = await this.appointment.counterItem.count();
     console.log("counter count is " + counterCount);
     if (counterCount > 0) {
