@@ -24,7 +24,7 @@ export class LoginPage {
   }
 
   /**
-   * @Test1 This method logs in the user with valid credentials.
+   * @Test0 This method logs in the user with valid credentials.
    *
    * @description This method performs the login operation using the provided valid credentials. It highlights the input
    *              fields for better visibility during interaction and fills the username and password fields. After submitting
